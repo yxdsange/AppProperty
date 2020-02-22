@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3dff00ff"
+    android:orientation="vertical"
+    >
+
+    <!--
+    match_parent 填满父控件，父控件大多控件就多大（SDK 2.0以上）
+    fill_parent与MACTH——parent功能相同（SDK2.0以下也可以使用，）
+    wrap_content包裹内容，空间的内容有多大控件就多大
+    线性布局中，设置方向  orientation（vertical 垂直/horizontal水平）
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layout基础实战TextView01"
+        android:background="#0000ff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView02"
+        android:background="#ffff00"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView03"
+        android:background="#ff0000"
+        />
+
+</LinearLayout>
+
+
+
+

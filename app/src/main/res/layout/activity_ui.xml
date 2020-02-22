@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <!-- Button之内部类方法实现 OnClickLinstener 方法-->
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="1.1.button之创建内部类实现OnClickListener方法" />
+        <!-- 匿名内部类方法 实现 OnClickListener 方法 -->
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="1.2.Button之创建匿名内部类方法实现OnClickLinister" />
+    <!-- Button之Activity继承OnClickListener 方法实现监听 -->
+        <Button
+            android:id="@+id/btn03"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="1.3.Button之Activity继承OnClickListener 方法实现监听" />
+        <!-- XMl 之 布局实现OnClickListener Activity构造同名方法 -->
+        <Button
+            android:id="@+id/btn04"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="1.4 XMl 之 布局实现OnClickListener" />
+
+        <Button
+            android:id="@+id/btn05"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="1.5 一个监听器同时监听多个事件；" />
+
+        <Button
+            android:id="@+id/btn06"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="1.6.Button 内部类实现多个按钮监听" />
+
+        <Button
+            android:id="@+id/btn07"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="2.1.Editext 属性" />
+
+
+        <Button
+            android:id="@+id/btn08"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="3.1. ImageView 属性" />
+
+
+        <Button
+            android:id="@+id/btn09"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="4.1 CheckBox 多选 属性" />
+
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="4.2 ReadioButton 单选属性" />
+
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="5 ToggleButton 属性 + Imageview" />
+
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="6 SeekBar属性 可拖拽进度条" />
+
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="7 progressBar 属性 评分进度条" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="8 RatingBar 属性 评分进度条 " />
+
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="9、 TimePicker DatePicker (时间、日期选择器)" />
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="16、点菜页面" />
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="17、menu属性" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="18、 Dialog属性" />
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn24"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn25"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn26"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+        <Button
+            android:id="@+id/btn27"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/bisque"
+            android:gravity="left|center"
+            android:text="XXXX属性" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

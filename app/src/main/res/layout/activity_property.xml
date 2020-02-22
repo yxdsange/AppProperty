@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView基本属性解析"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff00ff"
+        android:text="带有颜色的TextView"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带有图片背景的text"
+        android:background="@drawable/ic_launcher_foreground"
+        />
+
+</LinearLayout>
+
+
+

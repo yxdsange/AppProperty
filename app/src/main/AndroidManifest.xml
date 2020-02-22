@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.it.com.layout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityButtonThird" />
+        <activity android:name=".ActivityButtonFirst" />
+        <activity android:name=".ActivityButtonSecond" />
+        <activity android:name=".ActivityButtonFourth" />
+        <activity android:name=".ActivityButtonFifth" />
+        <activity android:name=".ActivityButtonSixth" />
+        <activity android:name=".ActivityEdiText" />
+        <activity android:name=".ActivityImageView" />
+        <activity android:name=".ActivityCheckBox" />
+        <activity android:name=".ActivityReadioButton" />
+        <activity android:name="com.it.dev.togglebutton.ActivityToggleButton" />
+        <activity android:name="com.it.dev.togglebutton.ActivityToggleButton" />
+        <activity android:name="com.it.dev.bar.ActivitySeekBar" />
+        <activity android:name="com.it.dev.bar.ActivityProgressBar" />
+        <activity android:name="com.it.dev.bar.ActivityRatingBar" />
+        <activity android:name="com.it.dev.picker.ActivityPicker" />
+        <activity android:name="com.it.dev.activitymangement.ActivityFirst" />
+        <activity android:name="com.it.dev.activitymangement.ActivityOther" />
+        <activity android:name="com.it.dev.demofirst.ActivityMenu" />
+        <activity android:name="com.it.dev.menudemo.ActivityMenuProperty" />
+        <activity android:name="com.it.dev.menudemo.ActivityOptionsMenu" />
+        <activity android:name="com.it.dev.dialog.ActivityDialog" />
+        <activity android:name="com.it.dev.dialog.ActivityAlterDialog" />
+        <activity android:name="com.it.dev.dialog.ActivityAlterDialogList"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.it.dev.dialog.ActivityDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/activityalterdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AlertDialog 提示对话框" />
+
+        <Button
+            android:id="@+id/activityalterdialoglist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AlertDialogList 对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressDialog 进度对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DatePickerDialog Or TimePickerDialog 提示对话框" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

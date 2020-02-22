@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.it.dev.bar.ActivityProgressBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="默认圆形" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_common"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="超大号圆形" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_max"
+            style="?android:progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小号圆形 " />
+
+        <ProgressBar
+            android:id="@+id/progressbar_small"
+            style="?android:progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水平方向" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_horizontal"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="30"
+            android:secondaryProgress="50" />
+        <!--
+         使用场景
+                    android:max="100"   最大值
+                    android:progress="30" 当前进度
+                    android:secondaryProgress="50" 缓冲进度
+         -->
+        <Button
+            android:id="@+id/btn_add01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增加第一进度"
+            />
+        <Button
+            android:id="@+id/btn_add02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增加第二进度"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+

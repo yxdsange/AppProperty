@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/font_group"
+        android:orderInCategory="3"
+        android:title="@string/font_name">
+        <!--  设置子菜单 二级菜单 -->
+        <menu>
+            <item
+                android:id="@+id/action_add"
+                android:title="@string/add"
+
+                ></item>
+            <item
+                android:id="@+id/action_sub"
+                android:title="@string/sub">
+
+            </item>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_color"
+        android:orderInCategory="2"
+        android:title="@string/action_color"></item>
+
+    <item
+        android:id="@+id/action_style"
+        android:orderInCategory="2"
+        android:title="@string/action_style">
+
+    </item>
+
+</menu>
+
+    <!--   <item
+            android:id="@+id/font_froup"
+            android:title="@string/font_name"
+            android:orderInCategory="3"
+            > -->
+
+

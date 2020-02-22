@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#00ffff"
+    >
+
+    <!--
+    被设置weight值的控件，宽度应该为控件的原宽度+父控件的剩余控件*比例
+    注意：水平方向的线性布局使用weight时，需注意将宽度设置为0dp
+         垂直方向线性布局中：只用weight时，需要注意将高度设置为0dp
+         fist 的宽度：match——patent（原宽度）+match_parent-(match_parent+match_parent)))51/3
+        设match_parent为a
+        first的宽度；a+((a-2a))*1/3
+                    =1+-1/3a
+                    =a-1/3a
+                    =2/3a
+                    fist 的宽度为父控件的2/3,即占父控件的2/3
+        second的宽度：a+(a-2a)*2/3
+                    =a+-2/3a
+                    =a-2/3a
+                    =1/3a
+    -->
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Wright 01"
+        android:background="#ff00ff"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Wright 02"
+        android:background="#ff0000"
+        android:layout_weight="2"
+        />
+
+
+</LinearLayout>
+
+
+
+
+

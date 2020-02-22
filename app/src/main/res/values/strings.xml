@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Robot</string>
+
+    <string name="text_more">文字太多！！！！！！</string>
+
+    <string name="font_name">设置大小</string>
+
+    <string name="action_color">设置字体颜色</string>
+    <string name="action_style">设置字体样式</string>
+
+    <string name="tv_content">操作字体</string>
+
+    <string name="add">增大字体</string>
+
+    <string name="sub">sub</string>
+
+    <string name="alterdialog_name">弹出对话框</string>
+    <string name="str_colors">设置字体颜色</string>
+    <string name="str_setting">进行设置</string>
+    <string name="str_size">进行字体大小</string>
+
+
+    <string-array name="colors_name">
+
+        <item>红色</item>
+        <item>绿色</item>
+        <item>蓝色</item>
+
+
+    </string-array>
+    <string-array name="setting_name">
+        <!-- 设置文本 -->
+        <item>wifi设置</item>
+        <item>蓝牙设置</item>
+        <item>声音设置</item>
+        <item>日期设置</item>
+    </string-array>
+
+    <string-array name="setting_images">
+        <!-- 设置图片 -->
+        <item>wifi设置</item>
+        <item>蓝牙设置</item>
+        <item>声音设置</item>
+        <item>日期设置</item>
+    </string-array>
+
+    <string-array name="font_name">
+        <item>小号</item>
+        <item>中号</item>
+        <item>大号</item>
+        <item>特大号</item>
+
+    </string-array>
+    <string-array name="font_value">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+
+    </string-array>
+</resources>
