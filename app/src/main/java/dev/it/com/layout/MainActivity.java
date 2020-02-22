@@ -16,6 +16,9 @@ import com.it.dev.menudemo.ActivityMenuProperty;
 import com.it.dev.picker.ActivityPicker;
 import com.it.dev.togglebutton.ActivityToggleButton;
 
+/**
+ * Android各控件属性操练，孰能生巧，我爱学习，学习爱我；
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btn01, btn02, btn03, btn04, btn05, btn06, btn07, btn08, btn09, btn10, btn11, btn12, btn13, btn14, btn15,btn16,btn17,btn18;
 
