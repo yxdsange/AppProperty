@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.it.dev.activitylife.ActivityLife">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_activity"
+            style="@style/btn_style"
+            android:text="打开一个activity" />
+
+        <Button
+            android:id="@+id/btn_dilalogactivity"
+            style="@style/btn_style"
+            android:text="打开一个DialogActivity" />
+
+        <Button
+            android:id="@+id/btn_dilog"
+            style="@style/btn_style"
+            android:text="打开一个系统创建的Dialog" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

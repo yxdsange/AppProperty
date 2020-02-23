@@ -19,6 +19,7 @@
     <string name="str_colors">设置字体颜色</string>
     <string name="str_setting">进行设置</string>
     <string name="str_size">进行字体大小</string>
+    <string name="dialog_title">开发测试activity传值</string>
 
 
     <string-array name="colors_name">

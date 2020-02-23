@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.it.dev.activitylife.ActivityLife;
 import com.it.dev.bar.ActivityProgressBar;
 import com.it.dev.bar.ActivityRatingBar;
 import com.it.dev.bar.ActivitySeekBar;
@@ -20,8 +21,8 @@ import com.it.dev.togglebutton.ActivityToggleButton;
  * Android各控件属性操练，孰能生巧，我爱学习，学习爱我；
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button btn01, btn02, btn03, btn04, btn05, btn06, btn07, btn08, btn09, btn10, btn11, btn12, btn13, btn14, btn15,btn16,btn17,btn18;
-
+    private Button btn01, btn02, btn03, btn04, btn05, btn06, btn07, btn08, btn09, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18;
+    private Button btn19;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,11 +62,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn15.setOnClickListener(this);
         btn16 = findViewById(R.id.btn16);
         btn16.setOnClickListener(this);
-        btn17=findViewById(R.id.btn17);
+        btn17 = findViewById(R.id.btn17);
         btn17.setOnClickListener(this);
 
-        btn18=findViewById(R.id.btn18);
+        btn18 = findViewById(R.id.btn18);
         btn18.setOnClickListener(this);
+
+        btn19 = findViewById(R.id.btn19);
+        btn19.setOnClickListener(this);
 
     }
 
@@ -151,6 +155,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn18:
                 Intent intent_18 = new Intent(MainActivity.this, ActivityDialog.class);
                 startActivity(intent_18);
+                break;
+            case R.id.btn19:
+                Intent intent_19 = new Intent(MainActivity.this, ActivityLife.class);
+                startActivity(intent_19);
                 break;
         }
     }

@@ -39,7 +39,9 @@
         <activity android:name="com.it.dev.menudemo.ActivityOptionsMenu" />
         <activity android:name="com.it.dev.dialog.ActivityDialog" />
         <activity android:name="com.it.dev.dialog.ActivityAlterDialog" />
-        <activity android:name="com.it.dev.dialog.ActivityAlterDialogList"></activity>
+        <activity android:name="com.it.dev.dialog.ActivityAlterDialogList" />
+        <activity android:name="com.it.dev.activitylife.ActivityLife" />
+        <activity android:name="com.it.dev.activitylife.ActivityLifeSecond"></activity>
     </application>
 
 </manifest>
