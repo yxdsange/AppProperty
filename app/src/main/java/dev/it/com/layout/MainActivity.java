@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.it.dev.activitylife.ActivityLife;
 import com.it.dev.bar.ActivityProgressBar;
 import com.it.dev.bar.ActivityRatingBar;
 import com.it.dev.bar.ActivitySeekBar;
 import com.it.dev.demofirst.ActivityMenu;
 import com.it.dev.dialog.ActivityDialog;
+import com.it.dev.fragment.ActivityFragment;
 import com.it.dev.menudemo.ActivityMenuProperty;
 import com.it.dev.picker.ActivityPicker;
 import com.it.dev.togglebutton.ActivityToggleButton;
@@ -22,7 +22,7 @@ import com.it.dev.togglebutton.ActivityToggleButton;
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btn01, btn02, btn03, btn04, btn05, btn06, btn07, btn08, btn09, btn10, btn11, btn12, btn13, btn14, btn15, btn16, btn17, btn18;
-    private Button btn19;
+    private Button btn19,btn20;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn19 = findViewById(R.id.btn19);
         btn19.setOnClickListener(this);
+        btn20 = findViewById(R.id.btn20);
+        btn20.setOnClickListener(this);
 
     }
 
@@ -156,9 +158,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent_18 = new Intent(MainActivity.this, ActivityDialog.class);
                 startActivity(intent_18);
                 break;
-            case R.id.btn19:
-                Intent intent_19 = new Intent(MainActivity.this, ActivityLife.class);
-                startActivity(intent_19);
+            case R.id.btn20:
+                Intent intent_20 = new Intent(MainActivity.this, ActivityFragment.class);
+                startActivity(intent_20);
                 break;
         }
     }

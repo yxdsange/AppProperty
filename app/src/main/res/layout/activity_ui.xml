@@ -216,7 +216,7 @@
             android:layout_weight="1"
             android:background="@color/bisque"
             android:gravity="left|center"
-            android:text="XXXX属性" />
+            android:text="20、Fragment 属性" />
 
         <Button
             android:id="@+id/btn21"

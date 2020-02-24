@@ -41,7 +41,12 @@
         <activity android:name="com.it.dev.dialog.ActivityAlterDialog" />
         <activity android:name="com.it.dev.dialog.ActivityAlterDialogList" />
         <activity android:name="com.it.dev.activitylife.ActivityLife" />
-        <activity android:name="com.it.dev.activitylife.ActivityLifeSecond"></activity>
+        <activity android:name="com.it.dev.activitylife.ActivityLifeSecond" />
+        <activity android:name="com.it.dev.fragment.ActivityFragment" />
+        <activity android:name="com.it.dev.fragment.DemoFragmentActivity" />
+        <activity android:name="com.it.dev.fragment.ManageFragmentActivity" />
+        <activity android:name="com.it.dev.fragment.FragmentValueActivity" />
+        <activity android:name="com.it.dev.fragment.FragmentValues2"></activity>
     </application>
 
 </manifest>
